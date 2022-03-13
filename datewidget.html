@@ -6,7 +6,7 @@
         display: flex;
         font-family: sans-serif;
         font-size: 18pt;
-        color: #ff5757;
+        color: #81796C;
         padding: 5px;
         border: 1px solid #ffffff;
         justify-content: left;
@@ -53,7 +53,7 @@
     var today = new Date();
     var hrs = today.getHours();
     var dayOfWeek = weekday[today.getDay()];
-    var date = `${dayOfWeek}, ${monthNames[today.getMonth()]} ${today.getDate()}, ${today.getFullYear()}`;
+    var date = `${dayOfWeek}, ${today.getDate()} ${monthNames[today.getMonth()]} ${today.getFullYear()}`;
 
     var greet;
 
